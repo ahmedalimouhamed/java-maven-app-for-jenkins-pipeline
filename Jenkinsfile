@@ -6,11 +6,6 @@ pipeline{
         }
     }
 
-    tools{
-        maven 'M3'
-        jdk 'jdk17'
-    }
-
     stages{
         stage('Checkout'){
             steps{
